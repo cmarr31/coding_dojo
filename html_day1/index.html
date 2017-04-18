@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Registration Form</title>
-</head>
-<body>
-	<form>    
-    	<p>First Name:</p>
-    	<label>
-    	    First_Name:<input type="text" name="first_name">
-    	</label>
-    	<p>Last Name:</p>
-    	<label>
-    	   Last_Name:<input type="text" name="last_name"> 
-    	</label>
-    	<p>Email:</p>
-    	<label>
-    	   Email:<input type="text" name="email"> 
-    	</label>
-    	<p>Password:</p>
-    	<label>
-    	    Password:<input type="password" name="password">
-    	</label>
-    	<p>PW Confirm:</p>
-    	<label>
-    	    PW Confirm:<input type="password" name="pw_confirm">
-    	</label>
-    	<label>
-    	   Female<input type="radio" name="gender" value="female">
-    	</label>
-    	<input type="submit" value="Click here to register">
-	</form>
-</body>
+	<head>
+		<title>My Registration Form</title>
+	</head>
+	<body>
+		<form>    
+	    	<p>First Name:</p>
+	    	<label>
+	    	    First_Name:<input type="text" name="first_name">
+	    	</label>
+	    	<p>Last Name:</p>
+	    	<label>
+	    	   Last_Name:<input type="text" name="last_name"> 
+	    	</label>
+	    	<p>Email:</p>
+	    	<label>
+	    	   Email:<input type="text" name="email"> 
+	    	</label>
+	    	<p>Password:</p>
+	    	<label>
+	    	    Password:<input type="password" name="password">
+	    	</label>
+	    	<p>PW Confirm:</p>
+	    	<label>
+	    	    PW Confirm:<input type="password" name="pw_confirm">
+	    	</label>
+	    	<label>
+	  		<p>Birthday:</p>
+	  			Birthday:<input type="date" name="birthday">
+	  		</label>
+	    	<label>
+	    	    <input type="radio" name="gender" value="male" checked> Male<br>
+	  			<input type="radio" name="gender" value="female"> Female<br>
+	  			<input type="radio" name="gender" value="other"> Other
+	    	</label>
+	    	<textarea rows="4" cols="50">
+				Please provide a short description of yourself.
+			</textarea>
+			<p>Favorite Language:</p>
+			<select>
+	  			<option value="JavaScript">JavaScript</option>
+	  			<option value="Ruby">Ruby</option>
+	  			<option value="C++">C++</option>
+			</select>
+	    	<input type="submit" value="Submit">
+		</form>
+	</body>
 </html>
