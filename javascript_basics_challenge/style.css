@@ -19,6 +19,10 @@ h1 {
 	padding: 7px;
 }
 
+#bullets {
+	list-style-type: circle;
+}
+
 .main_content {
 	color: white;
 	background-color: black;
@@ -35,7 +39,7 @@ h1 {
 }
 
 .randoms {
-	color: purple;
+	color: #4286f4;
 }
 
 #footer {
