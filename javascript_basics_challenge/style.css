@@ -6,7 +6,7 @@ h1 {
 	color: white;
 	background-color: red;
 	border-radius: 25px;
-	width: 1400px;
+	width: 1875px;
 	padding: 10px;
 }
 
@@ -41,6 +41,6 @@ h1 {
 #footer {
 	background-color: gray;
 	border-radius: 25px;
-	padding: 7px;
+	padding: 10px;
 	color: whitesmoke;
 }
