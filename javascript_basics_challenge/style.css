@@ -1,0 +1,50 @@
+body {
+	background-color: navy;
+}
+
+h1 {
+	color: white;
+	background-color: red;
+	border-radius: 25px;
+	width: 1875px;
+	padding: 10px;
+}
+
+#navigation {
+	color: teal;
+	text-decoration: underline;
+	background-color: aqua;
+	border-radius: 25px;
+	width: 200px;
+	padding: 7px;
+}
+
+#bullets {
+	list-style-type: circle;
+}
+
+.main_content {
+	color: white;
+	background-color: black;
+	border-radius: 25px;
+	padding: 6px;
+	margin-left: 250px;
+	margin-right: 20px;
+	margin-top: -310px
+}
+
+.bulleted_topics {
+	color: aqua;
+	text-decoration: underline;
+}
+
+.randoms {
+	color: #4286f4;
+}
+
+#footer {
+	background-color: gray;
+	border-radius: 25px;
+	padding: 10px;
+	color: whitesmoke;
+}
