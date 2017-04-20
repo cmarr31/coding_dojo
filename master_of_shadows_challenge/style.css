@@ -58,6 +58,7 @@ body {
 
 .la_mode {
   margin-top: 50px;
+  display: inline-block;
 }
 
 .la_mode #mode_title {
@@ -117,13 +118,130 @@ body {
 	display: block;
 }
 
-.family_contacts {
+	.family_contacts {
+	  margin-top: 50px;
+	  display: inline-block;
+	}
+	
+	.family_contacts #family_title {
+		font-size: x-large;
+		background-color: gray;
+		width: 450px;
+		padding-top: 20px;
+		color: whitesmoke;
+	}
+	
+	.family_contacts #privacy {
+		width: 450px;
+		margin-top: -55px;
+		height: 250px;
+	}
+	
+	.family_contacts #contacts {
+		background-color: #c4c4c4;
+		height: 150px;
+		font-size: large;
+		width: 450px;
+	  display: block;
+	}
+	
+	.family_contacts .tech {
+		background-color: gray;
+		width: 450px;
+		margin-top: -20px;
+		height: 0px;
+		font-size: x-large;
+		color: white;
+		padding-bottom: 140px;
+		display: block;
+	}
+	
+	.family_contacts p {
+		background-color: gray;
+		width: 350px;
+		margin-top: -6px;
+		height: 80px;
+	}
+	
+	.family_contacts .images {
+		height: 150px;
+		margin-top: -120px;
+	}
+	
+	.family_contacts img {
+		height: 50px;
+		width: 50px;
+		padding-top: 00px;
+	}
+	
+	.family_contacts button {
+		margin-left: 150px;
+		margin-top: -85px;
+		display: block;
+	}
 
-}
+		.five_eleven {
+			margin-top: 50px;
+			display: inline-block;
+		}
+		
+		.five_eleven #five {
+			font-size: x-large;
+			background-color: gray;
+			width: 450px;
+			padding-top: 20px;
+			color: whitesmoke;
+		}
+		
+		.five_eleven #map {
+			width: 450px;
+			margin-top: -55px;
+			height: 250px;
+		}
+		
+		.five_eleven #python {
+			background-color: #c4c4c4;
+			height: 150px;
+			font-size: large;
+			width: 450px;
+		  	display: block;
+		}
+		
+		.five_eleven .tech {
+			background-color: gray;
+			width: 450px;
+			margin-top: -20px;
+			height: 0px;
+			font-size: x-large;
+			color: white;
+			padding-bottom: 140px;
+			display: block;
+		}
+		
+		.five_eleven p {
+			background-color: gray;
+			width: 350px;
+			margin-top: -6px;
+			height: 80px;
+		}
+		
+		.five_eleven .images {
+			height: 150px;
+			margin-top: -120px;
+		}
+		
+		.five_eleven img {
+			height: 50px;
+			width: 50px;
+			padding-top: 00px;
+		}
+		
+		.five_eleven button {
+			margin-left: 150px;
+			margin-top: -85px;
+			display: block;
+		}	
 
-.five_eleven {
-
-}
 
 .bottom {
 	
