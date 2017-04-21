@@ -7,7 +7,7 @@
 .navigation {
   display: inline-block;
 	width: 970px;
-	height: 120px;
+	height: 53px;
 	background-color: black;
 	color: whitesmoke;
 }
@@ -17,9 +17,9 @@
 	margin-bottom: -30px;
 }
 
-.navigation #top_title {
-	display: block;
+#top_title {
 	margin-left: 50px;
+	margin-top: -28px;
 }
 
 .navigation img {
@@ -55,6 +55,7 @@
 	color: whitesmoke;
 	height: 31px;
 	width: 130px;	
+	font-size: large;
 }
 
 #helping_others .bulk_text {
@@ -66,7 +67,7 @@
 	width: 660px;
 }
 
-#main_content #small_pictures {
+#small_pictures {
 	display: inline-block;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .why {
-	margin-top: -420px
+	margin-top: -330px
 }
 
 .why img {
@@ -110,24 +111,23 @@
 .navigation_bottom {
 	background-color: black;
 	color: white;
-	height: 300px;
+	height: 250px;
 	display: block;
 }
 
 .navigation_bottom #top_bottom_titles {
-	width: 500px;
+	width: 200px;
 	display: inline-block;
 	font-size: large;
 }
 
-.navigation_bottom #top_bottom_bulk_text {
+.navigation_bottom p {
 	display: inline-block;
 }
 
 .navigation_bottom form {
 	display: block;
 	margin-left: 650px;
-	margin-top: -45px;
 }
 
 form input {
@@ -139,18 +139,17 @@ form input {
 	margin-left: 15%;
 }
 
- #top_title {
+#title_points {
+  font-size: x-large;	
+	display: inline
+}
 
- }
+#welcome {
+	font-size: 20px;
+	margin-top: -10px;
+}
 
- #recycling {
-
- }
-
-
-
-
-
-
-
-
+#welcome1 {
+	display: block;
+	margin-bottom: 40px;
+}
