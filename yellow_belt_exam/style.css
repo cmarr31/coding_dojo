@@ -1,41 +1,143 @@
 #wrapper {
 	width: 970px;
-    margin: 0px auto;
-    background-color: #245176;
-    color: white;
+  margin: 0px auto;
+	background-color: #c0c1c4;
 }
 
 .navigation {
-
+  display: inline-block;
+	width: 970px;
+	height: 120px;
+	background-color: black;
+	color: whitesmoke;
 }
 
-.bulk_text {
-
+.navigation p {
+	margin-left: 650px;
+	margin-bottom: -30px;
 }
 
-.title_points {
-
+.navigation #top_title {
+	display: block;
+	margin-left: 50px;
 }
 
-.top_bottom_bulk_text {
-
+.navigation img {
+	margin-top: 20px;
 }
 
-.small_pictures {
+#helping_others {
+  display: inline-block;
+}
 
- }
+#helping_others img {
+	margin-block-start: -240px;
+	margin-left: 500px;
+}
 
- .top_bottom_titles {
+#helping_others #helping {
+	font-size: 35px;
+	display: inline-block;
+	width: 450px;
+	margin-left: 20px;
+}
 
- }
+#helping_others p {
+	line-height: px;
+	margin-left: 20px;
+}
 
- #helping {
+#helping_others button {
+	display: block;
+	margin-left: 275px;
+	margin-top: 35px;
+	background-color: black;
+	color: whitesmoke;
+	height: 31px;
+	width: 130px;	
+}
 
- }
+#helping_others .bulk_text {
+  width: 400px;
+}
 
- #main_image {
+#main_content {
+ 	background-color: #c5cbd6;
+	width: 660px;
+}
 
- }
+#main_content #small_pictures {
+	display: inline-block;
+}
+
+#main_content #bulk_text {
+	inline-size: 100%
+	width: 50px;
+}
+
+#main_content #title_points {
+	width: 130px;
+}
+
+.why {
+	margin-top: -420px
+}
+
+.why img {
+	margin-left: 835px;
+	
+	margin-top: 0px;
+	
+}
+
+.why p {
+	width: 150px;
+	margin-left: 680px;
+	margin-top: -170px;
+	padding-bottom: 100px;
+}
+
+.why a {
+	margin-left: 700px;
+	margin-top: -100px;
+	display: block;
+}
+
+.why h4 {
+	margin-left: 700px;
+}
+
+.navigation_bottom {
+	background-color: black;
+	color: white;
+	height: 300px;
+	display: block;
+}
+
+.navigation_bottom #top_bottom_titles {
+	width: 500px;
+	display: inline-block;
+	font-size: large;
+}
+
+.navigation_bottom #top_bottom_bulk_text {
+	display: inline-block;
+}
+
+.navigation_bottom form {
+	display: block;
+	margin-left: 650px;
+	margin-top: -45px;
+}
+
+form input {
+	background-color: #575b63;
+	margin: 2px
+}
+
+#bottom {
+	margin-left: 15%;
+}
 
  #top_title {
 
@@ -45,10 +147,10 @@
 
  }
 
- #helping_others {
 
- }
 
- #main_content {
- 	
- }
+
+
+
+
+
