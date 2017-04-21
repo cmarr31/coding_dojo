@@ -151,5 +151,6 @@ form input {
 
 #welcome1 {
 	display: block;
-	margin-bottom: 40px;
+	margin-top: -30px;
+	font-size: x-large;
 }
