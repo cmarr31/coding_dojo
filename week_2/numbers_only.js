@@ -6,6 +6,7 @@ function numbersOnly(arr){
 		}
 	}
 	console.log(new_arr);
+	return new_arr;
 }
 
 numbersOnly(["apples", 1, "gatorade", 5, 7]);
