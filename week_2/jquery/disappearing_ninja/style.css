@@ -7,34 +7,44 @@
 }
 
 #one {
-	display: inline-block;
+	position: fixed;
 }
 
 #two {
-	
+	position: fixed;
+	left: 150px;
 }
 
 #three {
-	
+	position: fixed;
+	left: 300px;
 }
 
 #four {
-	
+	position: fixed;
+	left: 450px;
 }
 
 #five {
-	display: inline-block;
+	position: fixed;
+	top: 150px;
 }
 
 #six {
-	
+	position: fixed;
+	left: 150px;
+	top: 150px;
 }
 
 #seven {
-	
+	position: fixed;
+	left: 300px;
+	top: 150px;
 }
 
 #eight {
-	
+	position: fixed;
+	left: 450px;
+	top: 150px;
 }
 
