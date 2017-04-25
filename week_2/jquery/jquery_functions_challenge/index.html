@@ -7,11 +7,13 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<div id="add_class">
+		<div id="functions_div">
 			<h1>Add Class</h1>
 			<button type="button">Add Class</button>
 			<p>Click the button to add class 'red' to this 	paragraph.</p>
 		</div>
+		<p class="line"></p>
+
 
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -19,12 +21,7 @@
     				alert("You have turned this class red!");
     				$('p').css('color', 'red');
  				});
-        	
-				// $('h1').click(function(){
-    			//	alert("You have clicked a button!");
- 				// });
-        	
-
+				$('#functions_div').append('<p>APPENDED TEXT<br /></p>');
         	});	
         </script>
 	</body>
