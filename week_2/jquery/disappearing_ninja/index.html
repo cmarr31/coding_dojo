@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Disappearing Ninja</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/	jquery/3.2.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<img id="one" src="yin_yang.jpg">
+		<img id="two" src="yin_yang.jpg">
+		<img id="three" src="yin_yang.jpg">
+		<img id="four" src="yin_yang.jpg">
+		<img id="five" src="yin_yang.jpg">
+		<img id="six" src="yin_yang.jpg">
+		<img id="seven" src="yin_yang.jpg">
+		<img id="eight" src="yin_yang.jpg">
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('img').click(function(){
+    				$(this).hide();
+ 				});	
+        	});	
+        </script>
+	</body>
+</html>
