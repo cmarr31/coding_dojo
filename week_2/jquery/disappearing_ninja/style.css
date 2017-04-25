@@ -1,32 +1,40 @@
-#one {
+.yin {
+	height: 100px;
+	width: 100px;
+	border: solid;
+	border-color: black;
+	border-style: thin;
+}
 
+#one {
+	display: inline-block;
 }
 
 #two {
-
+	
 }
 
 #three {
-
+	
 }
 
 #four {
-
+	
 }
 
 #five {
-
+	display: inline-block;
 }
 
 #six {
-
+	
 }
 
 #seven {
-
+	
 }
 
 #eight {
-
+	
 }
 
