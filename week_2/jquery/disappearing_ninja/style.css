@@ -48,3 +48,12 @@
 	top: 150px;
 }
 
+button {
+	position: fixed;
+	left: 100px;
+	top: 313px;
+	width: 131px;
+	height: 50px;
+	font-size: 15px;
+}
+

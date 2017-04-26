@@ -16,6 +16,8 @@
 		<img id="six" class="yin" src="yin_yang.jpg">
 		<img id="seven" class="yin" src="yin_yang.jpg">
 		<img id="eight" class="yin" src="yin_yang.jpg">
+        <p></p>
+        <button type="button">Restore</button>
 
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -43,6 +45,9 @@
     			$("#eight").click(function(){
     				$("#eight").hide();							
  				});	
+                $("button").click(function() {
+                    location.reload();
+                });
         	});	
         </script>
 	</body>
