@@ -21,30 +21,14 @@
 
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$("#one").click(function(){
-    				$("#one").hide();
+                $(document).on( "click", function() {
+                    $(this).hide();
+                }); 
+
+				$(".yin").click(function(){
+    				$(this).hide();
     			});	
-    			$("#two").click(function(){
-    				$("#two").hide();
-    			});	
-    			$("#three").click(function(){
-    				$("#three").hide();
-    			});
-    			$("#four").click(function(){
-    				$("#four").hide();
-    			});
-    			$("#five").click(function(){
-    				$("#five").hide();
-    			});
-    			$("#six").click(function(){
-    				$("#six").hide();
-    			});
-    			$("#seven").click(function(){
-    				$("#seven").hide();
-    			});
-    			$("#eight").click(function(){
-    				$("#eight").hide();							
- 				});	
+
                 $("button").click(function() {
                     location.reload();
                 });
