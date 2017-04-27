@@ -5,6 +5,7 @@ table {
 }
 
 #info {
-	display: relative;
-	vertical-align: 50%;
+	display: inline-block;
+	left: 25%;
+	align-self: center;
 }
