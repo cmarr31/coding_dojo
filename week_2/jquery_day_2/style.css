@@ -3,3 +3,8 @@ table {
 	border-style: solid;
 	border-color: black;
 }
+
+#info {
+	display: relative;
+	vertical-align: 50%;
+}
