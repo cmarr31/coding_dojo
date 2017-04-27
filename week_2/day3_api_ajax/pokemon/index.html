@@ -18,10 +18,6 @@
 				$("#body_div").append(img);
 			}
 		}
-
-		console.log(extract_images());
-
-
 	</script>
 </body>
 </html>
@@ -29,6 +25,15 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		extract_images();
-	});
-	
+		$.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
+        	var html_str = "";
+        	html_str += "<h4>Types</h4>";
+        	html_str += "<ul>"; 
+        	for(var i = 0; i < res.types.length; i++) {
+            	html_str += "<li>" + res.types[i].name + "</li>";
+            }
+            html_str += "</ul>";
+            $("#body_div").append(html_str);
+            }, "json");
+        })
 </script>
