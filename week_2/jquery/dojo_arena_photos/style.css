@@ -1,0 +1,46 @@
+#arena{
+    width:800px;
+    height:400px;
+    background-image: url("earth.jpg");
+}
+
+
+#selection{
+    background-color:yellow;
+    width:190px;
+    height:120px;
+    padding:15px;
+    position:fixed;
+    margin-left:300px;
+    margin-top:100px;
+    border-radius:10px;
+    border:4px grey solid;
+}
+
+.button{
+    width:60px;
+    height:30px;
+    margin-top:10px;
+    /*margin-left:5px;*/
+
+
+}
+
+h1{
+    margin:0px;
+    text-align:center;
+}
+
+#player1img{
+    float:left;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+#player2img{
+    float:right;
+    height: 200px;
+    margin-right: 150px;
+    margin-top: 200px;
+}

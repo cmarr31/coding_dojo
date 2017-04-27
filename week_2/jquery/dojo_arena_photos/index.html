@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Arena</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="arena">
+        <div id="selection">
+            <h1>Select Arena</h1>
+            <button class="button" type="button">beach</button>
+            <button class="button" type="button">earth</button>
+            <button class="button" type="button">dojo</button>
+            <button class="button" type="button">forest</button>
+            <button class="button" type="button">matrix</button>
+            <button class="button" type="button">snow</button>
+            <Select name="player1" id="player1">
+                <option value="leo">Leo</option>
+                <option value="donny">Donny</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+
+            </Select>
+            <Select name="player2" id="player2">
+                <option value="leo">Leo</option>
+                <option value="donny">Donny</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+            </Select>
+        </div>
+        <img id="player1img" src="leo.png">
+        <img id="player2img" src="leo.png">
+
+    </div>
+
+    
+
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+    $("#player1").hide();
+    $("#player2").hide();
+    $(".button").hover(function(handlerIn) {
+        var path = $(this).text() + ".jpg";
+        var source = "url('" + path + "')";
+        $("#arena").css("background-image", source);
+    });
+    $(".button").click(function(){
+        var path = $(this).text() + ".jpg";
+        var source = "url('" + path + "')";
+        $("#arena").css("background-image", source);
+        $(".button").hide();
+        $("h1").text("Select Players")
+        $("#player1").show();
+        $("#player2").show();
+    });
+
+    $("#player1").change(function(){
+        var img_path = $(this).val() + ".png";
+        $("#player1img").attr("src", img_path);
+        console.log(img_path);
+    });
+
+    $("#player2").change(function(){
+        var img_path = $(this).val() + ".png";
+        $("#player2img").attr("src", img_path);
+        console.log(img_path);
+    });
+});
+
+
+
+</script>
+
+
+
