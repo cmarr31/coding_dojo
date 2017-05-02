@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>The Original 151 Pokemon</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,29 +14,42 @@
 		
 	</div>
 
+	<div id="pokedex">
+		<h3>Pokedex</h3>
+		<p></p>
+		<p>Stats:
+		</p>
+	</div>
+
 	<script type="text/javascript">
+		$(document).ready(function(){});
 		function extract_images(){
 			for (var i = 1; i <= 151; i++) {
-				var img = '<img src="http://pokeapi.co/media/img/'+ i +'.png">';
+				var img = '<img id="'+ i +'"src="http://pokeapi.co/media/img/'+ i +'.png">';
 				$("#body_div").append(img);
 			}
 		}
+		extract_images();
+	</script>
+
+
+	<script type="text/javascript">
+	//	$(document).ready(function(){});
+	//		extract_images();
+	//		$.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
+	//        	var html_str = "";
+	//        	html_str += "<h4>Types</h4>";
+	//        	html_str += "<ul>"; 
+	//        	for(var i = 0; i < res.types.length; i++) {
+	//            	html_str += "<li>" + res.types[i].name + "</li>";
+	//            }
+	//            html_str += "</ul>";
+	//            $("#body_div").append(html_str);
+	//            }, "json");
+	//        });
 	</script>
 </body>
 </html>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		extract_images();
-		$.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
-        	var html_str = "";
-        	html_str += "<h4>Types</h4>";
-        	html_str += "<ul>"; 
-        	for(var i = 0; i < res.types.length; i++) {
-            	html_str += "<li>" + res.types[i].name + "</li>";
-            }
-            html_str += "</ul>";
-            $("#body_div").append(html_str);
-            }, "json");
-        })
-</script>
+
+

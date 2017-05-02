@@ -1,0 +1,18 @@
+#body_div {
+	display: block;
+	align-items: left;
+	margin-right: 300px;
+}
+
+#pokedex {
+	display: block;
+	float: right;
+	margin-right: 75px;
+	margin-top: -1200px;
+	border: solid;
+	border-color: red;
+	border-width: 25px;
+	height: 400px;
+	width: 12em;
+	text-align: center;
+}
