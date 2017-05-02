@@ -21,7 +21,7 @@
 <script type="text/javascript">
 $( document ).ready(function() {
 	$.get("http://anapioficeandfire.com/api/houses/", function(res){
-			$( "#wrapper" ).append( document.createTextNode( res ) );
+			$( "#wrapper" ).append( res );
 	}, "jsonp" );
 })
 </script>
